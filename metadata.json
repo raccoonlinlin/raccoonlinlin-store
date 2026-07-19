@@ -1,0 +1,8 @@
+{
+  "name": "RACCOONLINLIN浣熊琳琳文創工作室",
+  "description": "客製化手工編織商品電商平台，結合心靈色彩特質分析測驗，為您的手機掛繩、狗掌與愛心吊飾尋找專屬色彩氣場與幸運風格建議。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
