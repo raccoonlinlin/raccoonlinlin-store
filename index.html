@@ -8,19 +8,23 @@
       content="width=device-width, initial-scale=1.0"
     />
 
-    <!-- SEO -->
+    <meta
+      name="theme-color"
+      content="#5A5A40"
+    />
+
     <title>
       RACCOONLINLIN 浣熊琳琳文創工作室 | 客製化手工編織與命定色色彩特質測驗
     </title>
 
     <meta
       name="description"
-      content="RACCOONLINLIN 浣熊琳琳文創工作室提供客製化手工編織手機掛繩、狗掌與愛心吊飾。結合專屬心靈色彩特質分析測驗，為您的隨身配件尋找專屬色彩氣場與幸運風格建議，創造獨一無二的日常幸運物。"
+      content="RACCOONLINLIN 浣熊琳琳文創工作室提供客製化手工編織手機掛繩、狗掌與愛心吊飾，結合專屬心靈色彩特質分析測驗，為您的隨身配件尋找專屬色彩氣場與幸運風格建議。"
     />
 
     <meta
       name="keywords"
-      content="RACCOONLINLIN, 浣熊琳琳, 浣熊琳琳文創工作室, 手工編織, 客製化掛繩, 手機掛繩, 命定色測驗, 色彩特質分析, 編織吊飾, 狗掌吊飾, 愛心吊飾, 文創設計, 色彩密碼, 手作配件"
+      content="RACCOONLINLIN, 浣熊琳琳, 手工編織, 客製化掛繩, 手機掛繩, 命定色測驗, 色彩特質分析, 編織吊飾, 狗掌吊飾, 愛心吊飾, 文創設計"
     />
 
     <meta
@@ -34,14 +38,15 @@
     />
 
     <!-- Open Graph -->
+
     <meta
       property="og:title"
-      content="RACCOONLINLIN 浣熊琳琳文創工作室 | 客製化手工編織與命定色色彩特質測驗"
+      content="RACCOONLINLIN 浣熊琳琳文創工作室"
     />
 
     <meta
       property="og:description"
-      content="結合專屬心靈色彩特質分析測驗，為您的客製化手工編織手機掛繩與吊飾，尋找專屬色彩氣場與幸運風格穿搭建議！"
+      content="客製化手工編織手機掛繩與吊飾，搭配命定色色彩特質分析，找到屬於你的專屬色彩。"
     />
 
     <meta
@@ -59,14 +64,8 @@
       content="zh_TW"
     />
 
-    <!--
-      注意：
-      這裡暫時不要放 ./src/assets/... 的圖片。
-      如果圖片路徑錯誤，不會造成白屏，
-      但之後可以再設定。
-    -->
-
     <!-- Twitter -->
+
     <meta
       name="twitter:card"
       content="summary_large_image"
@@ -79,18 +78,29 @@
 
     <meta
       name="twitter:description"
-      content="客製化手工編織手機掛繩與吊飾，搭配色彩密碼心理學，為您的生活配件注入專屬幸福氣場。"
+      content="客製化手工編織手機掛繩與吊飾，搭配命定色色彩特質分析。"
     />
+
+    <!-- JSON-LD -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "RACCOONLINLIN 浣熊琳琳文創工作室",
+        "description": "客製化手工編織商品與色彩特質分析。",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "TW"
+        }
+      }
+    </script>
   </head>
 
   <body>
-    <!--
-      React 網站的根元素
-      非常重要！
-    -->
     <div id="root"></div>
 
-    <!-- React 啟動入口 -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
